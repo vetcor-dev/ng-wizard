@@ -1,7 +1,7 @@
 {
   "name": "ng-wizard",
   "description": "Angular ng-wizard - Angular wizard | stepper",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/abdulkadirgenc/ng-wizard.git"
@@ -14,8 +14,8 @@
   "license": "MIT",
   "private": false,
   "peerDependencies": {
-    "@angular/common": "^8.2.5",
-    "@angular/core": "^8.2.5"
+    "@angular/common": "16.0.0",
+    "@angular/core": "^16.0.0"
   },
   "keywords": [
     "angular",
