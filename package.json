@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve -o --port=4201",
     "build": "ng build --aot",
+    "build2": "ng-packagr -p src\\ng-wizard\\ng-package.json",
     "lib:build": "rimraf dist && ng build ng-wizard --prod",
     "lib:themes": "mkdir dist\\ng-wizard\\themes && copy src\\ng-wizard\\themes\\*.css dist\\ng-wizard\\themes",
     "lib:files": "copy README.md dist\\ng-wizard && copy LICENSE dist\\ng-wizard",
@@ -48,6 +49,6 @@
     "ng-packagr": "^16.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
-    "typescript": "~5.1.6"
+    "typescript": "^4.9.5"
   }
 }
